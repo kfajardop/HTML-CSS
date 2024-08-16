@@ -1,107 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Home</title>
-    <link href="../content/IndexStyle.css" rel="stylesheet" type="text/css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Home page" />
-    <meta name="keywords" content="HTML5, CSS, Web, Diseño Web, UMG" />
-  </head>
-  <body class="body">
-    <header class="pageHeader">
-      <nav>
-        <ul>
-          <li class="active"><a href="index.html">Inicio</a></li>
-          <li><a href="about.html">Noticias</a></li>
-          <li><a href="contact.html">Contáctanos</a></li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <title>Home</title>
+  <link href="../content/IndexStyle.css" rel="stylesheet" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Home page" />
+  <meta name="keywords" content="HTML5, CSS, Web, Diseño Web, UMG" />
+</head>
+<body class="body">
+  <header class="pageHeader">
+    <nav>
+      <ul>
+        <li class="active"><a href="Index.html">Inicio</a></li>
+        <li><a href="Css3.html">CSS3</a></li>
+        <li><a href="Html5.html">HTML5</a></li>
+        <li><a href="About.html">Acerca de</a></li>
+        <li><a href="contact.html">Contáctanos</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <!---Agrupa la barra lateral y el contenido principal -->
+  <div class="layout">
+    <nav class="sidebar">
+      <ul class="navigation">
+        <li class="active"><a href="Index.html">Inicio</a></li>
+        <li><a href="Css3.html">CSS3</a></li>
+        <li><a href="Html5.html">HTML5</a></li>
+        <li><a href="About.html">Acerca de</a></li>
+        <li><a href="contact.html">Contáctanos</a></li>
+      </ul>
+    </nav>
+
     <div class="Main">
       <div class="content">
         <article class="top">
           <header>
-            <h2><a href="html5.html"> ¿Qué es HTML5?</a></h2>
+            <h2>HTML</h2>
           </header>
-          <footer>
-            <h5>
-              <i
-                >Esto fue posteado el 14 de agosto de 2024 por UMG-Guastatoya</i
-              >
-            </h5>
-          </footer>
-          <content>
+          <section>
+            <div class="container">
+              <img src="../multimedia/images/html.png" alt="HTML5" />
+            </div>
+
             <p>
-              HTML5 es la última evolución de HTML, el estándar básico de la
-              web. HTML5 se diseñó para ser utilizable en todos los
-              dispositivos, desde PC a teléfonos móviles pasando por tabletas, y
-              también para ser legible por humanos y entendible por las
-              computadoras y otros dispositivos de análisis. HTML5 incluye las
-              siguientes características:
+              HTML corresponde a las siglas "Hypertext Markup Language"
+              (Lenguaje de Etiquetado de Hipertexto), es el lenguaje esencial
+              para desarrollar y organizar páginas web. Es el marco básico sobre
+              el cual se construye cualquier sitio web, estableciendo la
+              estructura primaria en la que se distribuye el contenido. Sus
+              principales características son:
             </p>
             <ul>
-              <li>Un lenguaje de marcado más versátil para la web</li>
-              <li>Nuevos elementos estructurales</li>
-              <li>Nuevos atributos</li>
-              <li>Funciones de edición de contenido</li>
-              <li>Arrastrar y soltar</li>
-              <li>APIs de audio y vídeo</li>
-              <li>Elementos gráficos 2D y 3D</li>
-              <li>Almacenamiento local en el lado del cliente</li>
-              <li>Comunicaciones asíncronas</li>
-              <li>APIs de dispositivos</li>
-              <li>Y mucho más...</li>
+              <li>
+                Organiza la información en una página web mediante el uso de
+                etiquetas que definen elementos como encabezados, párrafos y
+                listas.
+              </li>
+              <li>
+                Es posible crear hipervínculos que conectan diferentes páginas y
+                recursos en el sitio web.
+              </li>
+              <li>
+                Permite incluir imágenes, videos y audios en el contenido web.
+              </li>
+              <li>
+                Ofrece la capacidad de construir formularios interactivos para
+                recopilar datos del usuario, como campos de texto, botones y
+                menús desplegables.
+              </li>
+              <li>
+                Facilita la creación de tablas para organizar y presentar datos
+                de manera estructurada.
+              </li>
             </ul>
-          </content>
+          </section>
+
+          <header>
+            <h4>¿Has escuchado el término HTML5?</h4>
+          </header>
+          <p>
+            Lee los datos interesantes acerca de este tema
+            <a href="html5.html"> aquí</a>
+          </p>
         </article>
       </div>
 
       <article class="bottom">
         <header>
-          <h2><a href="css3.html">¿Qué es CSS3?</a></h2>
+          <h2>¿Qué es CSS?</h2>
         </header>
-        <footer>
-          <h5>
-            <i>Esto fue posteado el 14 de agosto de 2024 por UMG-Guastatoya</i>
-          </h5>
-        </footer>
-        <content>
+        <section>
+          <div class="containercss">
+            <img src="../multimedia/images/css.png" alt="CSS" />
+          </div>
+
           <p>
             CSS, o Cascading Style Sheets, es un lenguaje que se utiliza para
             describir la presentación de una página web. Mientras que HTML se
             encarga de la estructura y el contenido de la página, CSS define
             cómo se verá ese contenido: los colores, las fuentes, los márgenes,
-            el diseño y la disposición de los elementos en la página.
-          </p>
-          <p>
-            CSS3 es la última evolución de CSS, y añade muchas características
-            nuevas y emocionantes a las hojas de estilo. Algunas de las nuevas
-            características de CSS3 incluyen:
+            el diseño y la disposición de los elementos en la página. Algunas de
+            sus características principales son:
           </p>
           <ul>
-            <li>Soporte para fuentes web</li>
-            <li>Colores RGBA y HSLA</li>
-            <li>Gradientes</li>
-            <li>Transiciones y animaciones</li>
-            <li>Transformaciones 2D y 3D</li>
-            <li>Soporte para fuentes web</li>
-            <li>Colores RGBA y HSLA</li>
-            <li>Gradientes</li>
-            <li>Transiciones y animaciones</li>
-            <li>Transformaciones 2D y 3D</li>
+            <li>
+              Permite definir cómo se verá cada elemento en una página web,
+              incluyendo aspectos como el color, las fuentes, los márgenes y el
+              espaciado.
+            </li>
+            <li>
+              Ayuda a mantener el contenido (HTML) separado de la apariencia
+              (estilos), facilitando la gestión y la actualización del diseño
+              sin modificar el contenido.
+            </li>
+            <li>
+              Puedes seleccionar elementos específicos en un documento para
+              aplicarles estilos. Esto se hace a través de selectores, como
+              etiquetas, clases y identificadores.
+            </li>
           </ul>
-        </content>
-      </article>
 
-      <aside clas="top-sidebar">
-        <h2>Navegación</h2>
-        <ul class="navigation">
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="about.html">Noticias</a></li>
-          <li><a href="contact.html">Contáctanos</a></li>
-        </ul>
-      </aside>
+            <h4>¿Sabías qué... CCS3 añade muchas características
+                nuevas y emocionantes a las hojas de estilo?</h4>
+          <p>
+            Amplía tus conocimientos sobre este tema
+            <a href="Css3.html"> aquí</a>
+          </p>
+
+        </section>
+      </article>
 
       <aside class="bottom-sidebar">
         <div class="featured">
@@ -118,8 +147,12 @@
         </div>
       </aside>
     </div>
-    <footer class="pageFooter">
-      <p>Copyright &copy; 2024 UMG</p>
-    </footer>
-  </body>
+    
+  </div>
+
+  <footer class="pageFooter">
+    <h4 class="footer1">Copyright &copy; 2024 UMG</h4>
+
+  </footer>
+</body>
 </html>
